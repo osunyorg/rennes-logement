@@ -1,18 +1,4 @@
 ---
 title: Menu principal
-items:
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
-- title: Liste des logements
-  target: "/liste-des-logements/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/liste-des-logements"
-  file: content/fr/pages/liste-des-logements/_index.html
+items: []
 
