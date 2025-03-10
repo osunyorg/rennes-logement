@@ -6,3 +6,4 @@ allowed_domains:
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
   - "logements.rennesmetropole.fr"
+  - "%7Bs%7D.tile.openstreetmap.org"

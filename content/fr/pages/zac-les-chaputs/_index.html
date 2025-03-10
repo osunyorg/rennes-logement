@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/zac-les-chaputs/"
 slug: "zac-les-chaputs"
 date: 2025-02-27T16:59:36+01:00
-lastmod: 2025-03-06T00:16:28+01:00
+lastmod: 2025-03-10T17:38:44+01:00
 meta:
   hugo:
     permalink: "/zac-les-chaputs/"
@@ -17,7 +17,7 @@ meta:
     slug: "zac-les-chaputs"
   dates:
     created_at: 2025-02-27T16:59:36+01:00
-    updated_at: 2025-03-06T00:16:28+01:00
+    updated_at: 2025-03-10T17:38:44+01:00
     published_at: 2025-02-27T16:59:36+01:00
 search:
   id: "2bc1dd83-70c7-4af9-a36e-ed9b30fb9c5d"
@@ -309,7 +309,7 @@ contents:
       active: false
     data:
       code: >-
-        <div class="map" data-markers="{" x les chaputs></div>
+        <div id="map" style="height: 500px;"></div><script>  var map = L.map('map').setView([48.8566, 2.3522], 13); // Coordonnées de Paris  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {    attribution: '© OpenStreetMap contributors'  }).addTo(map);  var marker = L.marker([48.8566, 2.3522]).addTo(map)    .bindPopup("Ceci est un marqueur sur Paris.")    .openPopup();</script>
 
       transcription_title: >-
         
