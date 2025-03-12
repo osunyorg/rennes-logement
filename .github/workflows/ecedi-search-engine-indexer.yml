@@ -25,10 +25,8 @@ jobs:
       - name: Install PHP dependencies
         run: composer install --working-dir=modules/search-engine-indexer
 
-      - name: Environment variables
+      - name: Indexation
+        run: php modules/search-engine-indexer/index.php
         env:
           API_URL: ${{ secrets.ECEDI_INDEXER_API_URL }}
           API_KEY: ${{ secrets.ECEDI_INDEXER_API_KEY }}
-
-      - name: Indexation
-        run: php modules/search-engine-indexer/index.php
