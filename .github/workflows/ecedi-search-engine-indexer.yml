@@ -30,3 +30,4 @@ jobs:
         env:
           API_URL: ${{ secrets.ECEDI_INDEXER_API_URL }}
           API_KEY: ${{ secrets.ECEDI_INDEXER_API_KEY }}
+          API_BASIC_AUTH: ${{ secrets.ECEDI_API_BASIC_AUTH }}
