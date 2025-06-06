@@ -209,7 +209,7 @@ body {
 }
 
 .loading {
-    background: url(/build/images/rolling.gif) 10px 10px no-repeat;
+    background: url(https://logements.rennesmetropole.fr/build/images/rolling.gif) 10px 10px no-repeat;
     padding-left: 70px;
     font-size: 48px;
     font-weight: lighter
