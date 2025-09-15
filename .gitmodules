@@ -10,3 +10,4 @@
 [submodule "modules/search-engine-indexer-staging"]
 	path = modules/search-engine-indexer-staging
 	url = git@github.com:osunyorg/rennes-search-engine-indexer.git
+	branch = staging
