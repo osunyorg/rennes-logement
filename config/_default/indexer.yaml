@@ -3,6 +3,7 @@ content_dirs:
   - /content/fr/pages
 exclude_dirs:
   - /content/fr/pages/base-de-donnees-programmes
+  - /content/fr/pages/programmes-immobiliers-neufs
   - /content/fr/pages/plan-du-site
 has_thematic: true
 taxonomies:
